@@ -8,7 +8,7 @@ public class C {
         System.out.println("Khoi tao C");
     }
 
-    public void use() {
+    public static void use() {
         System.out.println("Call to C");
     }
 }

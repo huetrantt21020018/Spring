@@ -15,6 +15,6 @@ public class A {
     @PostConstruct
     public void test() {
         System.out.print("A ");
-        b.getC().use();
+        C.use();
     }
 }
