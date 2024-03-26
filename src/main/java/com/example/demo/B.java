@@ -1,16 +1,20 @@
 package com.example.demo;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class B {
-    C c;
+    private C c;
+
+    @Autowired
     public B(C c) {
         this.c = c;
-        System.out.println("Khoi tao B");
     }
 
     public C getC() {
         return c;
     }
+
+    // Các phương thức của B
 }

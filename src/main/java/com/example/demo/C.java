@@ -4,11 +4,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class C {
-    public C() {
-        System.out.println("Khoi tao C");
-    }
-
-    public static void use() {
-        System.out.println("Call to C");
+    // Các phương thức của C
+    public void test() {
+        System.out.println("use C");
     }
 }
